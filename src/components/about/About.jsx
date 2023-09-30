@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import profile_picture from "../../assets/profile3.png";
+import profile_picture from "../../assets/alex.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={profile_picture} alt="About Ademir image" />
+            <img src={profile_picture} alt="About Alex image" />
           </div>
         </div>
         <div className="about__content">
@@ -29,8 +29,7 @@ const About = () => {
               <FiUsers className="about__icon" />
               <h5>Education</h5>
               <small>
-                B.Sc. Mechanical Engineering, M.Sc. Innovation &
-                Entrepreneurship
+                B.Sc. Informatics
               </small>
             </article>
             <article className="about__card">
@@ -44,24 +43,16 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a problem solver with a background in Engineering, Product
-            Design, & Entrepreneurship. Alongside my studies, I started Streets
-            of Oslo AS, a company which sold backpacks through social media.
-            Later I worked as a Consultant in TietoEvry within Product
-            Development and Pre-Sales of RPA technology.
+          I am a Full Stack Software Engineer with a Bachelor of Science in Informatics, specializing in 
+          cybersecurity and software engineering from the University of Washington, Seattle. 
+          Equipped with strong communication skills, leadership abilities, and a knack for critical thinking and problem-solving, 
+          I bring a diverse skill set to the software development landscape. In my previous career, 
+          I laid a solid foundation for my transition by immersing myself in the study of cybersecurity and software engineering. 
+          Now, as I look toward the future, I aspire to utilize my expertise and passion for secure software solutions to tackle complex 
+          problems and contribute to the advancement of the digital realm. With an unwavering commitment to user-centric design and 
+          collaboration, I am determined to make a meaningful impact as a Full Stack Engineer.
           </p>
-          <p>
-            In recent years, I've worked in the Coaching Industry with Sales
-            Automation, Website, & Advertisement Management. I thrive in a role
-            where I can use my broad knowledge to break down complex problems
-            and where the tasks require interaction between Design &
-            Functionality.
-          </p>
-          <p>
-            After a career focused on the business side of IT, I've immersed
-            myself in the technical side, and become a fullstack developer
-            through Academic Work's 12-week intensive training in JavaScript.
-          </p>
+          
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

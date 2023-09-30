@@ -36,9 +36,9 @@ header {
   background: var(--color-primary);
 }
 
-/* ADEMIR */
-.ademir {
-  background: linear-gradient(var(--color-primary), transparent);
+/* TAYLOR */
+.taylor {
+  /* background: linear-gradient(var(--color-primary), transparent); */
   width: 22rem;
   height: 30rem;
   position: absolute;
